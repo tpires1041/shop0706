@@ -3,6 +3,16 @@
   \****************************************************************************************************************************************************************************************************************************************************************************/
 @import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
+
+.header_material-symbols-outlined__Kkdcu {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
 .header_header__wFPaD {
   display: flex;
   flex-wrap: wrap;
@@ -11,6 +21,8 @@
   font-style: normal;
   flex-direction: row;
   justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .header_frase__e8cRX {
@@ -29,6 +41,16 @@
 .header_button__4qe2L {
   text-align: right;
   margin-top: 10px;
+  background-color: #FF9900;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.header_button__4qe2L:hover {
+  background-color: #ff9950; /* Cor de fundo do botão quando o mouse está sobre ele */
 }
 
 .header_logo__gD3Ck {
@@ -39,6 +61,7 @@
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/styles/footer.module.css ***!
   \****************************************************************************************************************************************************************************************************************************************************************************/
 .footer_footer__17AzZ {
+  height: 100px;
   display: flex;
   flex-wrap: wrap;
   font-family: "Roboto", sans-serif;
@@ -46,10 +69,16 @@
   font-style: normal;
   flex-direction: row;
   justify-content: space-between;
+  
 }
 
 .footer_imagelogof__ZW97z {
   align-items: end;
   justify-content: right;
   float: right;
+  padding-top: 40px;
+}
+
+.footer_redes__uloMh {
+  list-style-type: none;
 }

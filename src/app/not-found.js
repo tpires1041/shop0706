@@ -6,7 +6,6 @@ export default function NotFound() {
     <div className={styles.notFound}>
       <h2>Not Found</h2>
       <p>Não conseguimos achar esta rota!</p>
-      <Link href="/">Voltar para Home</Link>
     </div>
   )
 }
