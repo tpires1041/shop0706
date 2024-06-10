@@ -10,7 +10,7 @@ export default function Header() {
             <div className={styles.logo}>
                 <Link href="/">
                     <Image
-                        src={"https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg"}
+                        src={"/fakeamazon.png"}
                         width={100}
                         height={30}
                     />

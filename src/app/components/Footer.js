@@ -10,10 +10,10 @@ export default function Footer() {
             <li><FaYoutube size={30} /></li>
             <li><FaTwitter size={30} /></li>
         </div>
-        <p>Servindo bem desde 1989</p>
+        <p>Servindo bem desde 1994</p>
 
         <Image className={styles.imagelogof}
-                    src={"https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg"}
+                    src={"/fakeamazon.png"}
                     width={100}
                     height={30}
                 />
